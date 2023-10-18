@@ -1,0 +1,66 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  
+  .create_form input{
+    width: 300px;
+    padding: 10px;
+    border-bottom: black;
+    outline: none;
+  }
+  
+  .create_form button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  .task {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 90%;
+    color: white;
+    height: 40px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 2px;
+    border-radius: 15px;
+  }
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  .checkbox .icon {
+    margin-right: 5px;
+    font-size: 15px;
+  }
+  .task div span{
+    margin: 0px 5px 0px 4px;
+  }
+  .task div .icon{
+    cursor: pointer;
+  }
+  .line_through{
+    text-decoration: line-through;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color:black;
+    padding-top: 10vh;
+}
+#quote{
+    color:white;
+    padding-bottom: 10px;
+}
+#record h2{
+    padding-right: 2.5vw;
+}
+

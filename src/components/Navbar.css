@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 80%;
+  overflow: hidden;
+}
+.darkmode{
+  background-color: white;
+  color: black;
+  opacity:100%;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  width: 15vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 1vw;
+}
+
+.dark {
+  padding-right: 1vw;
+}
+
+.logo img {
+  margin-top: 3px;
+  border-radius: 15px;
+  width: 80px;
+  height: 10vh;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 55px;
+  height: 4vh;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+#home:link,
+#about:link {
+  text-decoration: none;
+  color: rgb(159, 154, 154);
+}
+
+#home:visited,
+#about:visited {
+  text-decoration: none;
+  color: rgb(135, 130, 130);
+}
+
+.list li:hover {
+  /* background-image: linear-gradient(to right,
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%);
+  animation: slidebg 10s linear infinite; */
+  font-weight: 1000;
+  border: 2px solid white;
+  color: white;
+}
+
+/* @keyframes slidebg {
+  to {
+    background-position: 20vw;
+  }
+} */
+.dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2vw;
+  width: 30px;
+  height: 10vh;
+}

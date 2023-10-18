@@ -1,0 +1,21 @@
+@media screen and (max-width:650px) and (min-width:1px){
+    .cont{
+        width:100%;
+    }
+    .list{
+        width: 120px;
+    }
+    .logo{
+        width:70px;
+    }
+    .logo img{
+        width: 70px;
+        height: 70px;
+    }
+    .navbar{
+        justify-content:space-between;
+    }
+    #input{
+        width: 260px;
+    }
+}
